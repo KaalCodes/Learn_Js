@@ -1,0 +1,26 @@
+#box{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+    box-shadow: 0cap;
+}
+
+
+#box:hover {
+    box-shadow: 0px 0px 30px grey;
+}
+
+ .para{
+    align-items: center;
+    margin-left: 42%;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray ;
+}
+
+#search{
+    text-align: center;
+    margin-top: 10px;
+}
+ 

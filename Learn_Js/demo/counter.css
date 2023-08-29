@@ -1,0 +1,79 @@
+.main-container{
+    height: 99%;
+    width: 100%;
+    background-color: #d5e9f0;
+    border: 2px solid #d5e9f0;
+}
+
+.upper-div{
+    height: 30%;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    border: 2px solid transparent;
+    
+}
+
+ p{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    word-spacing: 1em;
+    text-shadow: white;
+}
+
+
+#input-text{
+    font-size: 1.5rem;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+
+#button{
+    width:12%;
+    height: 20%;
+    font-size: 1.2em;
+    border-radius: 15px;
+    margin-left: 70%;
+
+}
+
+.lower-div{
+    height: 30%;
+    width: 70%;
+    background-color: rgb(99, 98, 98);
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid rgb(99, 98, 98);
+    
+}
+
+#display{
+    height: 40%;
+    width: 10%;
+    margin: auto;
+    margin-top: 5%;
+    /* background-color: white; */
+    border: 2px solid black;
+}
+
+#display { 
+    color: blue;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#display p.next{
+    position: absolute;
+    top:100px;
+}
+
+#display p.animate{
+    transition: all 0.5s;
+    top: 0px;
+}
